@@ -43,11 +43,11 @@ class ProductCell: UICollectionViewCell {
     //MARK: - Initializers
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         contentView.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9529411765, blue: 0.9529411765, alpha: 1)
         contentView.addSubview(productImageView)
         contentView.addSubview(productDescription)
         contentView.addSubview(productPrice)
+
         layoutSubviews()
     }
     
@@ -57,8 +57,14 @@ class ProductCell: UICollectionViewCell {
     
     //MARK: - Helper Functions
     override func layoutSubviews() {
-        productImageView.pin.size(180).top().left().right().marginBottom(10)
+        productImageView.pin.size(180).top().hCenter().marginBottom(10)
         productDescription.pin.below(of: productImageView).left().right().height(50)
         productPrice.pin.below(of: productDescription).left().right().height(30)
+    }
+    
+    func configureCell(description: String, price: String, imageName: String) {
+        productImageView.image = UIImage(named: imageName)
+        productDescription.text = description
+        productPrice.text = price
     }
 }

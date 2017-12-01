@@ -84,5 +84,17 @@ extension CategoriesViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let barButton = UIBarButtonItem()
+        barButton.title = ""
+        self.navigationItem.backBarButtonItem = barButton
+        
+        let category = DataService.instance.getCategories()[indexPath.row]
+        let productViewController = ProductsViewController()
+        productViewController.initProducts(category: category)
+        
+        self.navigationController?.pushViewController(productViewController, animated: true)
+    }
+    
 }
 

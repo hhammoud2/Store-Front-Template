@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31233B53B6B0B20917911C24 /* Pods_Swag_Store_Front.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7718AFF7756496CDE6CEF470 /* Pods_Swag_Store_Front.framework */; };
+		F010C00A1FD1BB0400AD88A7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010C0091FD1BB0400AD88A7 /* Product.swift */; };
 		F04FC0771FD0912E00515E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC0761FD0912E00515E74 /* AppDelegate.swift */; };
 		F04FC0791FD0912E00515E74 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC0781FD0912E00515E74 /* CategoriesViewController.swift */; };
 		F04FC07E1FD0912E00515E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04FC07D1FD0912E00515E74 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		0089DEB287652E6146019538 /* Pods-Swag Store Front.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swag Store Front.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swag Store Front/Pods-Swag Store Front.release.xcconfig"; sourceTree = "<group>"; };
 		7718AFF7756496CDE6CEF470 /* Pods_Swag_Store_Front.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swag_Store_Front.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E257E8BCAA81095BE72675B1 /* Pods-Swag Store Front.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swag Store Front.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swag Store Front/Pods-Swag Store Front.debug.xcconfig"; sourceTree = "<group>"; };
+		F010C0091FD1BB0400AD88A7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F04FC0731FD0912E00515E74 /* Swag Store Front.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swag Store Front.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FC0761FD0912E00515E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F04FC0781FD0912E00515E74 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
@@ -86,14 +88,14 @@
 		F04FC0751FD0912E00515E74 /* Swag Store Front */ = {
 			isa = PBXGroup;
 			children = (
-				F04FC08F1FD0BD8F00515E74 /* Services */,
-				F04FC08A1FD0AB1400515E74 /* Controller */,
-				F04FC0891FD0AB0F00515E74 /* View */,
-				F04FC0881FD0AB0500515E74 /* Model */,
 				F04FC0761FD0912E00515E74 /* AppDelegate.swift */,
 				F04FC07D1FD0912E00515E74 /* Assets.xcassets */,
 				F04FC07F1FD0912E00515E74 /* LaunchScreen.storyboard */,
 				F04FC0821FD0912E00515E74 /* Info.plist */,
+				F04FC08F1FD0BD8F00515E74 /* Services */,
+				F04FC08A1FD0AB1400515E74 /* Controller */,
+				F04FC0891FD0AB0F00515E74 /* View */,
+				F04FC0881FD0AB0500515E74 /* Model */,
 			);
 			path = "Swag Store Front";
 			sourceTree = "<group>";
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F04FC08D1FD0BC7500515E74 /* Category.swift */,
+				F010C0091FD1BB0400AD88A7 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04FC0931FD0C8A200515E74 /* ProductsViewController.swift in Sources */,
+				F010C00A1FD1BB0400AD88A7 /* Product.swift in Sources */,
 				F04FC0791FD0912E00515E74 /* CategoriesViewController.swift in Sources */,
 				F04FC08C1FD0AB6A00515E74 /* CategoryCell.swift in Sources */,
 				F04FC0771FD0912E00515E74 /* AppDelegate.swift in Sources */,

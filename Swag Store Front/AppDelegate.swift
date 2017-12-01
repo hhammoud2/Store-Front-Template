@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navController.navigationBar.barTintColor = #colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)
         navController.navigationBar.isTranslucent = false
         navController.navigationBar.tintColor = .white
-        let textAttributes: [NSAttributedStringKey:Any] = [NSAttributedStringKey.foregroundColor:UIColor.white, NSAttributedStringKey.font:boldFont]
+        let textAttributes: [NSAttributedStringKey:Any] = [NSAttributedStringKey.foregroundColor:UIColor.white, NSAttributedStringKey.font:boldFont!]
         navController.navigationBar.titleTextAttributes = textAttributes
         return navController
     }()

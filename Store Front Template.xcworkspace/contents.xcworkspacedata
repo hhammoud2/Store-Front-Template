@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Swag Store Front.xcodeproj">
+      location = "group:/Users/hammoudhammoud/Desktop/iOS Dev/storefront/Store Front Template.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

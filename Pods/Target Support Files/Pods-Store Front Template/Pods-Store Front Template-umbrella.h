@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Swag_Store_FrontVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Swag_Store_FrontVersionString[];
+FOUNDATION_EXPORT double Pods_Store_Front_TemplateVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Store_Front_TemplateVersionString[];
 
